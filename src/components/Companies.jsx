@@ -14,7 +14,7 @@ const Companies = () => {
     
 
   return (
-    <div className="maincompany">
+    <div className="maincompany" id="projects">
          <h2 style={{textAlign:"center", fontWeight:100, margin:"20px 0"}}>Portfolio & Projects</h2>
         <div className="clients">
             <div className="caption" data-aos="fade-up" data-aos-easing="linear"

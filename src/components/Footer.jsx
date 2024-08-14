@@ -12,12 +12,12 @@ const Footer = () => {
 
   return (
     <div>
-        <div className="haveaproject">
+        <div className="haveaproject" id="footer">
             <h1 data-aos="fade-left" data-aos-easing="linear"
             data-aos-duration="1100">Have a Project? <br /> Let's Work Together</h1>
         </div>
         <div className="foot">
-            <h1>knathgraphics@gmail.com <span> <a href="mailto:knatgraphics@gmail.com" target="_blank" rel="noopener noreferrer"><img className="emailarrow" src={arrowblack} alt="" /></a></span></h1>
+        <a className="maillink" href="mailto:knatgraphics@gmail.com" target="_blank" rel="noopener noreferrer"> <h1>knathgraphics@gmail.com <span> <img className="emailarrow" src={arrowblack} alt="" /></span></h1></a>
             <ul> 
                 <a id="foothref" href="http://x.com/the_mobileguy" target="_blank" rel="noopener noreferrer"><li>Twitter</li></a>
                 <a id="foothref" href="http://instagram.com/nathbrandingagency" target="_blank" rel="noopener noreferrer"><li>Instagram</li></a>

@@ -19,9 +19,11 @@ const Hero = () => {
             data-aos-duration="700">
             <h1 className="deploy">Designing <br /><span className="and">&</span> Deploying <br /> Things</h1>
             <div className="button">
-            <button className="getintouch" >Get in Touch</button>
+            <div><a href="mailto:knathgraphics@gmail.com" target="_blank" rel="noopener noreferrer"><button className="getintouch" >Get in Touch</button></a></div>
+            <div className="divavailable">
             <img src={Light} className="light" alt="" />
             <h4 className="available">Available for Hire</h4>
+            </div>
         </div>
         </div>
 

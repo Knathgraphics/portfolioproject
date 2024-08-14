@@ -12,7 +12,7 @@ const Introduction = () => {
   }, []);
   
   return (
-    <div className="introduction">
+    <div className="introduction" id="about">
         <div className="introduce" data-aos="fade-up" data-aos-easing="linear"
             data-aos-duration="700">
             <h2>👋 Hi, I'm Olutuyo Pelumi  a  Passionate Programmer based in Lagos.</h2>
