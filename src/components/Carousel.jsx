@@ -7,6 +7,7 @@ import Port1 from "../assets/images/port1.png"
 import Port2 from "../assets/images/port2.png"
 import Port3 from "../assets/images/port3.png"
 import Port4 from "../assets/images/port4.png"
+import Port5 from "../assets/images/port5.png"
 import arrowwhite from "../assets/images/arrowwhite.svg"
 
 const Carousel = () => {
@@ -25,6 +26,8 @@ const Carousel = () => {
     return (
         <div style={{ width: '100%', margin: 'auto', height:"auto" }}>
             <Slider {...settings}>
+
+
                 <div>
                     <img className='carouselimage' src={Port1} alt="Slide 1" />
                     <div>
@@ -35,8 +38,10 @@ const Carousel = () => {
                         </div>
                     </div>
                 </div>
+
+
                 <div>
-                <img className='carouselimage' src={Port2} alt="Slide 1" />
+                <img className='carouselimage' src={Port2} alt="Slide 2" />
                 <div>
                         <h3 >Snap</h3>
                         <div className='projectbrief'>
@@ -45,8 +50,10 @@ const Carousel = () => {
                         </div>
                     </div>
                 </div>
+
+
                 <div>
-                <img className='carouselimage' src={Port3} alt="Slide 1" />
+                <img className='carouselimage' src={Port3} alt="Slide 3" />
                 <div>
                         <h3 >CV Webpage</h3>
                         <div className='projectbrief'>
@@ -55,12 +62,26 @@ const Carousel = () => {
                         </div>
                     </div>
                 </div>
+
+
                 <div>
-                <img className='carouselimage' src={Port4} alt="Slide 1" />
+                <img className='carouselimage' src={Port4} alt="Slide 4" />
                 <div>
                         <h3 >React Dashboard</h3>
                         <div className='projectbrief'>
                             <div> <p style={{margin:0, padding:0, fontWeight:100, color:"rgba(255, 255, 255, 0.662)"}}>My first React.js Project which shows a brief statistics</p></div>
+                            <div><a href="https://reactdashboard-jade.vercel.app/"><img className='arrow' src={arrowwhite} alt="" /></a></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                <img className='carouselimage' src={Port5} alt="Slide 5" />
+                <div>
+                        <h3 >Weather Application</h3>
+                        <div className='projectbrief'>
+                            <div> <p style={{margin:0, padding:0, fontWeight:100, color:"rgba(255, 255, 255, 0.662)"}}>Shows real time weather data for a specific location.</p></div>
                             <div><a href="https://reactdashboard-jade.vercel.app/"><img className='arrow' src={arrowwhite} alt="" /></a></div>
                         </div>
                     </div>
