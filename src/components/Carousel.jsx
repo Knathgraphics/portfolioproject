@@ -82,7 +82,7 @@ const Carousel = () => {
                         <h3 >Rivo Ecommerce</h3>
                         <div className='projectbrief'>
                             <div> <p style={{margin:0, padding:0, fontWeight:100, color:"rgba(255, 255, 255, 0.662)"}}>Ecommerce application for a online clothing store.</p></div>
-                            <div><a href="https://reactweatherapp-tau.vercel.app/"><img className='arrow' src={arrowwhite} alt="" /></a></div>
+                            <div><a href="https://rivo-amber.vercel.app/"><img className='arrow' src={arrowwhite} alt="" /></a></div>
                         </div>
                     </div>
                 </div>
