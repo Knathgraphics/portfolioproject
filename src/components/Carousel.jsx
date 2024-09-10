@@ -5,9 +5,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Port1 from "../assets/images/port1.png"
 import Port2 from "../assets/images/port2.png"
-import Port3 from "../assets/images/port3.png"
 import Port4 from "../assets/images/port4.png"
 import Port5 from "../assets/images/port5.png"
+import Port6 from "../assets/images/port6.png"
 import arrowwhite from "../assets/images/arrowwhite.svg"
 
 const Carousel = () => {
@@ -53,18 +53,6 @@ const Carousel = () => {
 
 
                 <div>
-                <img className='carouselimage' src={Port3} alt="Slide 3" />
-                <div>
-                        <h3 >CV Webpage</h3>
-                        <div className='projectbrief'>
-                            <div> <p style={{margin:0, padding:0, fontWeight:100, color:"rgba(255, 255, 255, 0.662)"}}>My first project learning which combines my HTML & CSS skills</p></div>
-                            <div><a href="https://cvwebpage-pelumi-olutuyos-projects.vercel.app/"><img className='arrow' src={arrowwhite} alt="" /></a></div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div>
                 <img className='carouselimage' src={Port4} alt="Slide 4" />
                 <div>
                         <h3 >React Dashboard</h3>
@@ -82,10 +70,25 @@ const Carousel = () => {
                         <h3 >Weather Application</h3>
                         <div className='projectbrief'>
                             <div> <p style={{margin:0, padding:0, fontWeight:100, color:"rgba(255, 255, 255, 0.662)"}}>Shows real time weather data for a specific location.</p></div>
-                            <div><a href="https://reactdashboard-jade.vercel.app/"><img className='arrow' src={arrowwhite} alt="" /></a></div>
+                            <div><a href="https://reactweatherapp-tau.vercel.app/"><img className='arrow' src={arrowwhite} alt="" /></a></div>
                         </div>
                     </div>
                 </div>
+
+                
+                <div>
+                <img className='carouselimage' src={Port6} alt="Slide 5" />
+                <div>
+                        <h3 >Rivo Ecommerce</h3>
+                        <div className='projectbrief'>
+                            <div> <p style={{margin:0, padding:0, fontWeight:100, color:"rgba(255, 255, 255, 0.662)"}}>Ecommerce application for a online clothing store.</p></div>
+                            <div><a href="https://reactweatherapp-tau.vercel.app/"><img className='arrow' src={arrowwhite} alt="" /></a></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </Slider>
         </div>
     );
